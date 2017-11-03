@@ -5,7 +5,6 @@ function divide(a,b){return a/b}
 function inc(a){return ++a}
 function dec(a){return --a}
 function makeInt(n){
-  if(typeof n === 'string'){
-    n = n.parseInt();
-  }
+  n = parseInt(n,10);
+
 }
